@@ -61,7 +61,10 @@ const UserLogin = () => {
             type="password"
             placeholder="password"
           />
-          <button className="bg-[#111] text-white font-semibold mb-3 rounded-lg px-4 py-2  w-full text-lg ">
+          <button
+            type="submit"
+            className="bg-[#111] text-white font-semibold mb-3 rounded-lg px-4 py-2  w-full text-lg"
+          >
             Login
           </button>
         </form>
